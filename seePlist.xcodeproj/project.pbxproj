@@ -13,6 +13,8 @@
 		9F3134AB1D45ED9300FA10AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3134A91D45ED9300FA10AC /* Main.storyboard */; };
 		9F3134AD1D45ED9300FA10AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3134AC1D45ED9300FA10AC /* Assets.xcassets */; };
 		9F3134B01D45ED9300FA10AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3134AE1D45ED9300FA10AC /* LaunchScreen.storyboard */; };
+		9FD605EB1D46F69E00D5EBEF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD605EA1D46F69E00D5EBEF /* ViewController2.m */; };
+		9FD605EE1D47664700D5EBEF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD605ED1D47664700D5EBEF /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9F3134AC1D45ED9300FA10AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3134AF1D45ED9300FA10AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3134B11D45ED9300FA10AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD605E91D46F69E00D5EBEF /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9FD605EA1D46F69E00D5EBEF /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		9FD605EC1D47664700D5EBEF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9FD605ED1D47664700D5EBEF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9F3134A41D45ED9300FA10AC /* AppDelegate.m */,
 				9F3134A61D45ED9300FA10AC /* ViewController.h */,
 				9F3134A71D45ED9300FA10AC /* ViewController.m */,
+				9FD605E91D46F69E00D5EBEF /* ViewController2.h */,
+				9FD605EA1D46F69E00D5EBEF /* ViewController2.m */,
+				9FD605EC1D47664700D5EBEF /* LoginViewController.h */,
+				9FD605ED1D47664700D5EBEF /* LoginViewController.m */,
 				9F3134A91D45ED9300FA10AC /* Main.storyboard */,
 				9F3134AC1D45ED9300FA10AC /* Assets.xcassets */,
 				9F3134AE1D45ED9300FA10AC /* LaunchScreen.storyboard */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					9F31349C1D45ED9300FA10AC = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8452TWPAH4;
 					};
 				};
 			};
@@ -150,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3134A81D45ED9300FA10AC /* ViewController.m in Sources */,
+				9FD605EB1D46F69E00D5EBEF /* ViewController2.m in Sources */,
 				9F3134A51D45ED9300FA10AC /* AppDelegate.m in Sources */,
 				9F3134A21D45ED9300FA10AC /* main.m in Sources */,
+				9FD605EE1D47664700D5EBEF /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seePlist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.testOnMacMini.seePlist;
@@ -274,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seePlist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.testOnMacMini.seePlist;
@@ -300,6 +315,7 @@
 				9F3134B61D45ED9400FA10AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
